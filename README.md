@@ -7,7 +7,7 @@ Fuck'n simple notification system.
 auto t = thunderclap::thunderclap<std::string>::shared_instance();
 
 // add observer
-t->watch("notification", [](std::string x) {
+auto idx = t->watch("notification", [](std::string x) {
 	std::cout << "notification received!! : " << x << std::endl;
 });
 
@@ -15,6 +15,6 @@ t->watch("notification", [](std::string x) {
 t->clap("notification", "param");
 
 // remove observer
-t->dispose("notification");
+t->dispose("notification", idx);
 ```
 See more at `main.cpp`.
