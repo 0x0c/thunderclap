@@ -1,4 +1,13 @@
+//
+//  thunderclap.h
+//  thunderclap
+//
+//  Created by Akira Matsuda on 3/10/16.
+//
+//
+
 #pragma once
+
 #include <vector>
 #include <string>
 #include <map>

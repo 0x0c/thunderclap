@@ -1,3 +1,11 @@
+//
+//  thunderclap.h(detail)
+//  thunderclap
+//
+//  Created by Akira Matsuda on 3/10/16.
+//
+//
+
 #include "../thunderclap.h"
 #include <algorithm>
 #include <random>
