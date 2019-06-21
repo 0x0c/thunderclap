@@ -1,5 +1,5 @@
 #include <iostream>
-#include "thunderclap.h"
+#include "../thunderclap.h"
 
 int main(int argc, char const *argv[])
 {

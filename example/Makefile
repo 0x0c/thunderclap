@@ -1,7 +1,7 @@
 CC = clang++ -std=c++11
 
 all:
-	$(CC) -g thunderclap.cpp main.cpp
+	$(CC) -g main.cpp
 
 test:
 
